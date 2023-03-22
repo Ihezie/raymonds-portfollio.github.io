@@ -377,6 +377,13 @@ body{
 .contact-info div div{
     font-size: 1.8rem;
     width: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.contact-info div div a{
+    color: black;
+    text-decoration: none;
 }
 .contact-info + h2{
     font-weight: 800;
